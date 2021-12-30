@@ -1,0 +1,28 @@
+<div class="container" *ngFor="let picture of japanPictures"> 
+    <div class="row g-0">
+      <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="p-2"></div>
+        <a href="{{picture.productLink}}">
+            <img
+            src="{{picture.imageSRC}}"
+            class="mask w-100 shadow-1-strong rounded mb-4 hover-overlay"
+            alt="{{picture.name}}"
+          />
+          </a>
+        </div>
+    </div>
+</div>
+
+<div class="container px-5" *ngFor="let picture of californiaPictures"> 
+  <div class="row gx-3">
+    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+      <a href="{{picture.productLink}}">
+          <img
+          src="{{picture.imageSRC}}"
+          class="mask w-100 shadow-1-strong rounded mb-4 hover-overlay"
+          alt="{{picture.name}}"
+        />
+        </a>
+      </div>
+  </div>
+</div>
