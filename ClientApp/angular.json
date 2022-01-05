@@ -67,8 +67,6 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "main": "",
           "configurations": {
             "production": {
               "browserTarget": "photo_collection:build:production"
@@ -79,7 +77,6 @@
             }
           },
           "defaultConfiguration": "development"
-        }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
