@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
@@ -74,7 +73,6 @@ import { ImageService } from './image/shared/image.service';
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'california', component: CaliforniaGalleryComponent}
     ]),
-    MdbAccordionModule,
     MdbCarouselModule,
     MdbCheckboxModule,
     MdbCollapseModule,
