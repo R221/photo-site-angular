@@ -17,7 +17,6 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
-import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -88,7 +87,6 @@ import { ImageService } from './image/shared/image.service';
     MdbTooltipModule,
     MdbValidationModule,
     AppRoutingModule,
-    NgxParallaxScrollModule,
     NgbModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot()
