@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
@@ -9,7 +10,6 @@ import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { MdbDropdownModule } from 'mdb-angular-ui-kit/dropdown';
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 import { MdbModalModule } from 'mdb-angular-ui-kit/modal';
-import { MdbPopoverModule } from 'mdb-angular-ui-kit/popover';
 import { MdbRadioModule } from 'mdb-angular-ui-kit/radio';
 import { MdbRangeModule } from 'mdb-angular-ui-kit/range';
 import { MdbRippleModule } from 'mdb-angular-ui-kit/ripple';
@@ -65,6 +65,7 @@ import { ImageService } from './image/shared/image.service';
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
+    HttpClient,
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -78,7 +79,6 @@ import { ImageService } from './image/shared/image.service';
     MdbDropdownModule,
     MdbFormsModule,
     MdbModalModule,
-    MdbPopoverModule,
     MdbRadioModule,
     MdbRangeModule,
     MdbRippleModule,
