@@ -37,7 +37,6 @@
     "mdb-angular-ui-kit": "^1.5.1",
     "mdb-ui-kit": "^3.10.1",
     "ng-lazyload-image": "^9.1.0",
-    "ngx-parallax-scroll": "^1.0.2",
     "oidc-client": "^1.11.5",
     "popper.js": "^1.16.0",
     "run-script-os": "^1.1.6",
