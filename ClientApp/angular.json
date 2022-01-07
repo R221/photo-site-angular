@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "main": "src/main.ts",
             "progress": false,
             "outputPath": "dist",
             "index": "src/index.html",
@@ -67,6 +68,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {},
           "configurations": {
             "production": {
               "browserTarget": "photo_collection:build:production"

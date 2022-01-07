@@ -16,10 +16,12 @@
   "dependencies": {
     "@angular/animations": "~12.2.2",
     "@angular/cdk": "^12.2.13",
+    "@angular/cli": "13.1",
     "@angular/common": "~12.2.2",
     "@angular/compiler": "~12.2.2",
     "@angular/core": "^13.1.1",
     "@angular/forms": "~12.2.2",
+    "@angular/localize": "^13.1.1",
     "@angular/material": "^12.2.13",
     "@angular/platform-browser": "~12.2.2",
     "@angular/platform-browser-dynamic": "~12.2.2",
@@ -46,7 +48,6 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.2",
-    "@angular/cli": "~12.2.2",
     "@angular/compiler-cli": "~12.2.2",
     "@schematics/angular": "^13.1.2",
     "@types/jasmine": "~3.6.0",
