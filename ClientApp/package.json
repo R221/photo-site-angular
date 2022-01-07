@@ -15,10 +15,12 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.2",
+    "@angular/cdk": "^12.2.13",
     "@angular/common": "~12.2.2",
     "@angular/compiler": "~12.2.2",
-    "@angular/core": "~12.2.2",
+    "@angular/core": "^13.1.1",
     "@angular/forms": "~12.2.2",
+    "@angular/material": "^12.2.13",
     "@angular/platform-browser": "~12.2.2",
     "@angular/platform-browser-dynamic": "~12.2.2",
     "@angular/platform-server": "~12.2.2",
@@ -35,7 +37,6 @@
     "mdb-angular-ui-kit": "^1.5.1",
     "mdb-ui-kit": "^3.10.1",
     "ng-lazyload-image": "^9.1.0",
-    "ngx-parallax-scroll": "^1.0.2",
     "oidc-client": "^1.11.5",
     "popper.js": "^1.16.0",
     "run-script-os": "^1.1.6",
@@ -47,6 +48,7 @@
     "@angular-devkit/build-angular": "~12.2.2",
     "@angular/cli": "~12.2.2",
     "@angular/compiler-cli": "~12.2.2",
+    "@schematics/angular": "^13.1.2",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "^12.11.1",
@@ -58,5 +60,9 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.",
+  "main": "aspnetcore-https.js",
+  "author": "Robert James",
+  "license": "ISC"
 }
